@@ -1,0 +1,290 @@
+2022-08-07 23:09:44 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.liepin.com/a/37453185.shtml> (referer: http://www.baidu.com/)
+Traceback (most recent call last):
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 132, in iter_errback
+    yield next(it)
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 342, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 40, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\myfirstPj\myfirstPj\spiders\jobDetail.py", line 50, in parse
+    item['needList'] = needListDetail
+TypeError: 'Selector' object does not support item assignment
+2022-08-07 23:09:44 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.liepin.com/a/39227573.shtml> (referer: http://www.baidu.com/)
+Traceback (most recent call last):
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 132, in iter_errback
+    yield next(it)
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 342, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 40, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\myfirstPj\myfirstPj\spiders\jobDetail.py", line 50, in parse
+    item['needList'] = needListDetail
+TypeError: 'Selector' object does not support item assignment
+2022-08-07 23:09:44 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.liepin.com/a/38636687.shtml> (referer: http://www.baidu.com/)
+Traceback (most recent call last):
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 132, in iter_errback
+    yield next(it)
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 342, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 40, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\myfirstPj\myfirstPj\spiders\jobDetail.py", line 50, in parse
+    item['needList'] = needListDetail
+TypeError: 'Selector' object does not support item assignment
+2022-08-07 23:09:44 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.liepin.com/a/38373261.shtml> (referer: http://www.baidu.com/)
+Traceback (most recent call last):
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 132, in iter_errback
+    yield next(it)
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 342, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 40, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\myfirstPj\myfirstPj\spiders\jobDetail.py", line 50, in parse
+    item['needList'] = needListDetail
+TypeError: 'Selector' object does not support item assignment
+2022-08-07 23:11:42 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.liepin.com/a/37453185.shtml> (referer: http://www.baidu.com/)
+Traceback (most recent call last):
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 132, in iter_errback
+    yield next(it)
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 342, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 40, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\myfirstPj\myfirstPj\spiders\jobDetail.py", line 51, in parse
+    item['needList'] = needListDetail
+TypeError: 'Selector' object does not support item assignment
+2022-08-07 23:11:42 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.liepin.com/a/39227573.shtml> (referer: http://www.baidu.com/)
+Traceback (most recent call last):
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 132, in iter_errback
+    yield next(it)
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 342, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 40, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\myfirstPj\myfirstPj\spiders\jobDetail.py", line 51, in parse
+    item['needList'] = needListDetail
+TypeError: 'Selector' object does not support item assignment
+2022-08-07 23:11:42 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.liepin.com/a/38636687.shtml> (referer: http://www.baidu.com/)
+Traceback (most recent call last):
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 132, in iter_errback
+    yield next(it)
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 342, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 40, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\myfirstPj\myfirstPj\spiders\jobDetail.py", line 51, in parse
+    item['needList'] = needListDetail
+TypeError: 'Selector' object does not support item assignment
+2022-08-07 23:11:42 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.liepin.com/a/38373261.shtml> (referer: http://www.baidu.com/)
+Traceback (most recent call last):
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 132, in iter_errback
+    yield next(it)
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 342, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 40, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\myfirstPj\myfirstPj\spiders\jobDetail.py", line 51, in parse
+    item['needList'] = needListDetail
+TypeError: 'Selector' object does not support item assignment
+2022-08-07 23:22:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.liepin.com/job/1951518185.shtml> (referer: http://www.baidu.com/)
+Traceback (most recent call last):
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 132, in iter_errback
+    yield next(it)
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 342, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 40, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\myfirstPj\myfirstPj\spiders\jobDetail.py", line 43, in parse
+    item['goodList'] = goodListDetail
+TypeError: 'Selector' object does not support item assignment
+2022-08-07 23:22:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.liepin.com/job/1951404913.shtml> (referer: http://www.baidu.com/)
+Traceback (most recent call last):
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 132, in iter_errback
+    yield next(it)
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 354, in __next__
+    return next(self.data)
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 342, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 40, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\admin\scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 66, in _evaluate_iterable
+    for r in iterable:
+  File "D:\admin\scrapy\myfirstPj\myfirstPj\spiders\jobDetail.py", line 43, in parse
+    item['goodList'] = goodListDetail
+TypeError: 'Selector' object does not support item assignment
